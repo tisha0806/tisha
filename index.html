@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Information</h1>
+    <form action="data.php" method="POST">
+    <p>Name:
+    <input type="text" name="name" placeholder="Enter Name" required><br>
+    <p>DOB:
+    <input type="date" name="dob" required><br>
+    <p>Enrollment:
+    <input type="number" name="enrollment" placeholder="Enter Enrollment" required><br>
+    <p>Field:
+    <input type="text" name="field" placeholder="Enter Field" required><br>
+    <p><input type="reset">
+    <input type="submit">
+    </form>
+    </center>
+    
+        <form action="view.php" method="POST">
+            <center>
+            <p>Enrollment:
+            <input type="number" name="enroll" placeholder="Enter Enrollment" required><br>
+            <p><input type="submit">
+        </center>
+        </form>
+    
+</body>
+</html>
